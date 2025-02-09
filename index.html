@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input style="height:3.5vmin;" type="text" spellcheck="false" placeholder="city name"><button><i style="border: none;" class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather">
+            <div class="weather_i">
+                <i class="fa-solid fa-cloud-showers-water"></i>
+            </div>
+            <div class="temp">22°C</div>
+            <div class="city">city name</div>
+            <div class="details">
+                <div class="humidity wind">
+                    <i class="fa-solid fa-droplet"></i>
+                    <button class="humiditybutt">Humidity</button> 
+                </div>
+                <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <button class="wind-button">Wind Speed</button>
+                    
+                </div>
+            </div>
+            <div class="minMax">
+            <div class="min_temp bor_der" style="border: 0.2px solid rgb(64, 10, 10);">Minimum:</div>
+            <div class="feel_like bor_der" style="border: 0.2px solid rgb(73, 12, 12);">Feel like:</div>
+            <div class="max_temp bor_der"  style="border: 0.2px solid rgb(54, 5, 5);">Max temp</div>
+            </div>
+            <div class="sun">
+            <div class="sunRise">Sunrise</div>
+            <div class="sunSet">Sunset</div>
+            </div>
+           <div class="name">
+  <a href="https://www.google.com/search?q=weather&oq=weather&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg5MgYIAhBFGDkyBggDEC4YQNIBCDEzNThqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">
+    tap here for more details
+  </a><p>__</p>
+  <a href="https://zoom.earth/maps/satellite/#view=23.44,85.37,5z" target="_blank">
+   or here
+  </a>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
