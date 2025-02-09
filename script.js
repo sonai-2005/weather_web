@@ -14,7 +14,11 @@ const city_name = document.querySelector(".city");
 const humidity = document.querySelector(".humiditybutt");
 const weather_icon = document.querySelector(".weather_i");
 
-
+cityInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        search.click(); // Simulate button click when Enter is pressed
+    }
+});
 search.addEventListener("click", () => {
     const city = cityInput.value.trim();
     if (search != "") {
